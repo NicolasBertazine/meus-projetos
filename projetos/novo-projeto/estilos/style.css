@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(73, 23, 0);
+    position: relative;
+    height: 100vh;
+}
+
+div#container {
+    background-color: rgb(201, 201, 201);
+    min-width: 300px;
+    max-width: 900px;
+    min-height: 550px;
+    max-height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+
+div#container h1 {
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(73, 23, 0);
+    font: bolder 4em Arial;
+}
+
+div#container p {
+    text-align: center;
+    padding-top: 60px;
+    color: rgb(73, 23, 0);
+    font: normal 2em Arial;
+}
+
+div.saudacao {
+    text-align: center;
+    margin-top: 60px;
+    font: bold 2.5em Arial;
+    color: rgb(155, 0, 0);
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    min-width: 100px;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(155, 0, 0);
+    color: white;
+    font: bold 1.5em Arial;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
+}
+
+input:hover {
+    background-color: rgb(104, 0, 0);
+}
+
