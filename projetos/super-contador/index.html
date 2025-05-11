@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>Vamos contar</h1>
+    <section>
+        
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <p>
+                    <label for="txti">Início: </label><input type="number" name="txti" id="txti">
+                </p>
+                <p>
+                    <label for="txtf">Fim: </label><input type="number" name="txtf" id="txtf">
+                </p>
+                <p>
+                    <label for="txtp">Passo: </label><input type="number" name="txtp" id="txtp">
+                </p>
+                <input type="button" value="Contar" onclick="contar()" id="botao">
+            </form>
+        
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+            <p>&copy; Feito por <a href="https://github.com/NicolasBertazine">Nícolas Bertazine</a></p>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
