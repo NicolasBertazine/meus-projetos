@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Calculadora</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style.css"> <!-- Link para o CSS3 -->
 </head>
-<body>
-    <h1>Vamos contar</h1>
-    <section>
+<body> <!-- Corpo do site -->
+    <h1>Vamos contar</h1> <!-- Título -->
+    <section> <!-- Section do formulário -->
         
-            <form action="cadastro.php" method="post" autocomplete="off">
-                <p>
+            <form action="cadastro.php" method="post" autocomplete="off"> <!-- Formulário -->
+
+                <p> <!-- Número inícial-->
                     <label for="txti">Início: </label><input type="number" name="txti" id="txti">
                 </p>
-                <p>
+                <p> <!-- Número final -->
                     <label for="txtf">Fim: </label><input type="number" name="txtf" id="txtf">
                 </p>
-                <p>
+                <p> <!-- Número de passos -->
                     <label for="txtp">Passo: </label><input type="number" name="txtp" id="txtp">
                 </p>
-                <input type="button" value="Contar" onclick="contar()" id="botao">
+                <input type="button" value="Contar" onclick="contar()" id="botao"> <!-- Botão -->
+
             </form>
         
-        <div id="res">
+        <div id="res"> <!-- Div da resposta -->
             <p>A resposta vai aparecer aqui...</p>
         </div>
     </section>
-    <footer>
+    <footer> <!-- Rodapé -->
             <p>&copy; Feito por <a href="https://github.com/NicolasBertazine">Nícolas Bertazine</a></p>
     </footer>
-    <script src="javascript/script.js"></script>
+    <script src="javascript/script.js"></script> <!-- Link para o JavaScript -->
 </body>
 </html>

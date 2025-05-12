@@ -5,12 +5,12 @@
     padding: 0px;
 }
 
-body {
+body { /* Corpo do site */
     font: normal 18pt Arial;
     background-color: cornflowerblue;
 }
 
-h1 {
+h1 { /* Título principal */
     display: block;
     margin: auto;
     margin-top: 100px;
@@ -25,7 +25,7 @@ h1 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
 }
 
-section {
+section { /* Section principal*/
     background-color: white;
     min-width: 250px;
     max-width: 500px;
