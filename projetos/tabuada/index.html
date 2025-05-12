@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <section>
+
+        <form action="cadastro.php" method="post" autocomplete="off">
+
+            <p>
+                <label for="txtn">Número: </label>
+                <input type="number" name="txtn" id="txtn">
+                <input type="button" value="Gerar Tabuada" id="botao" onclick="tabuada()">
+            </p>
+
+            <select name="tabuada" id="tabuada" size="10">
+                <option>Aqui vai sair a tabuada</option>
+            </select>
+
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy; Feito por <a href="https://github.com/NicolasBertazine/">Nícolas Bertazine</a></p>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
