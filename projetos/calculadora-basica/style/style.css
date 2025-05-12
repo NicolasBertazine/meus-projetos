@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+
+body {
+    background-color: wheat;
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+section#container {
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+}
+
+section#container p {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+input#txtn1 {
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: 3px solid rgb(231, 185, 99);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+input#txtn2 {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    border: 3px solid rgb(231, 185, 99);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+div#botoes {
+    margin-top: 10px;
+    text-align: center;
+}
+
+input#mais {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 185, 99);
+    background-color: wheat;
+    font-size: 1.5em;
+}
+
+input#mais:active {
+    background-color: rgb(173, 157, 126);
+}
+
+input#menos {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 185, 99);
+    background-color: wheat;
+    font-size: 1.5em;
+}
+
+input#menos:active {
+    background-color: rgb(173, 157, 126);
+}
+
+input#vezes {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 185, 99);
+    background-color: wheat;
+    font-size: 1.5em;
+}
+
+input#vezes:active {
+    background-color: rgb(173, 157, 126);
+}
+
+input#dividir {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(231, 185, 99);
+    background-color: wheat;
+    font-size: 1.5em;
+}
+
+input#dividir:active {
+    background-color: rgb(173, 157, 126);
+}
+
+div#res {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer { /* Rodapé */
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font: italic normal 15pt Arial;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+footer a { /* Links no rodapé */
+    color: white;
+    text-decoration: none;
+    font: italic bolder 15pt Arial;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+}
+
+footer a:hover { /* Efeito no link do rodapé ao passar o mouse */
+    text-decoration: underline;
+}

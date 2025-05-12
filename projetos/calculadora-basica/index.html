@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style/style.css"> <!-- Link para o CSS3-->
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    <section id="container">
+        
+        <p>
+            <label for="txtn1">Primeiro número: <input type="number" name="txtn1" id="txtn1"></label>
+        </p>
+        <p>
+            <label for="txtn2">Segundo número:  <input type="number" name="txtn2" id="txtn2"></label>
+        </p>
+
+        <div id="botoes">
+            <input type="button" value="+" id="mais" onclick="somar()">
+            <input type="button" value="-" id="menos" onclick="tirar()">
+            <input type="button" value="x" id="vezes" onclick="multiplicar()">
+            <input type="button" value="÷" id="dividir" onclick="divisao()">
+        </div>
+        
+        <div id="res">
+            Resultado a...
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Feito por <a href="https://github.com/NicolasBertazine/" target="_blank">Nícolas Bertazine</a></p>
+    </footer>
+    <script src="javascript/script.js"></script> <!-- Link para o JavaScript -->
+</body>
+</html>
