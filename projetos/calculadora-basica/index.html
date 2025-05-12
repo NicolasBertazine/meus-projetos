@@ -6,29 +6,31 @@
     <title>Calculadora Básica</title>
     <link rel="stylesheet" href="style/style.css"> <!-- Link para o CSS3-->
 </head>
-<body>
-    <h1>Calculadora Básica</h1>
-    <section id="container">
+<body> <!-- Corpo do site -->
+    <h1>Calculadora Básica</h1> <!-- Título principal -->
+    <div id="container"> <!-- Div principal -->
         
         <p>
-            <label for="txtn1">Primeiro número: <input type="number" name="txtn1" id="txtn1"></label>
+            <label for="txtn1">Primeiro número: </label>
+            <input type="number" name="txtn1" id="txtn1"> <!-- Primeiro número -->
         </p>
         <p>
-            <label for="txtn2">Segundo número:  <input type="number" name="txtn2" id="txtn2"></label>
+            <label for="txtn2">Segundo número: </label>
+            <input type="number" name="txtn2" id="txtn2"> <!-- Segundo número -->
         </p>
 
-        <div id="botoes">
-            <input type="button" value="+" id="mais" onclick="somar()">
-            <input type="button" value="-" id="menos" onclick="tirar()">
-            <input type="button" value="x" id="vezes" onclick="multiplicar()">
-            <input type="button" value="÷" id="dividir" onclick="divisao()">
+        <div id="botoes"> <!-- Div dos botões -->
+            <input type="button" value="+" id="mais" onclick="somar()"> <!-- Botão de somar -->
+            <input type="button" value="-" id="menos" onclick="tirar()"> <!-- Botão de subtração -->
+            <input type="button" value="x" id="vezes" onclick="multiplicar()"> <!-- Botão  de mutiplicação -->
+            <input type="button" value="÷" id="dividir" onclick="divisao()"> <!-- Botão  de divisão -->
         </div>
         
-        <div id="res">
-            Resultado a...
+        <div id="res"> <!-- Div da resposta -->
+            
         </div>
-    </section>
-    <footer>
+    </div>
+    <footer> <!-- Rodapé -->
         <p>&copy; Feito por <a href="https://github.com/NicolasBertazine/" target="_blank">Nícolas Bertazine</a></p>
     </footer>
     <script src="javascript/script.js"></script> <!-- Link para o JavaScript -->

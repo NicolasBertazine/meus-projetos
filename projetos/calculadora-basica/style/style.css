@@ -5,11 +5,11 @@
     padding: 0px;
 } 
 
-body {
+body { /* Corpo do site */
     background-color: wheat;
 }
 
-h1 {
+h1 { /* Título principal */
     margin-top: 100px;
     margin-bottom: 30px;
     text-align: center;
@@ -19,7 +19,7 @@ h1 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
 }
 
-section#container {
+div#container { /* Div principal */
     background-color: white;
     min-width: 300px;
     max-width: 400px;
@@ -28,14 +28,14 @@ section#container {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
 }
 
-section#container p {
+div#container p { /* Parágrafos da Div principal */
     padding: 20px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 
-input#txtn1 {
+input#txtn1 { /* Primeiro número */
     width: 100px;
     height: 40px;
     margin-left: 5px;
@@ -45,7 +45,7 @@ input#txtn1 {
     text-align: center;
 }
 
-input#txtn2 {
+input#txtn2 { /* Segundo número */
     width: 100px;
     height: 40px;
     border-radius: 15px;
@@ -54,12 +54,12 @@ input#txtn2 {
     text-align: center;
 }
 
-div#botoes {
+div#botoes { /* Div dos botões */
     margin-top: 10px;
     text-align: center;
 }
 
-input#mais {
+input#mais { /* Botão de somar */
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -68,11 +68,11 @@ input#mais {
     font-size: 1.5em;
 }
 
-input#mais:active {
+input#mais:active { /* Efeito ao clicar no botão de somar */
     background-color: rgb(173, 157, 126);
 }
 
-input#menos {
+input#menos { /* Botão de subtração */
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -81,11 +81,11 @@ input#menos {
     font-size: 1.5em;
 }
 
-input#menos:active {
+input#menos:active { /* Efeito ao clicar no botão de subtração */
     background-color: rgb(173, 157, 126);
 }
 
-input#vezes {
+input#vezes { /* Botão de mutiplicação */
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -94,11 +94,11 @@ input#vezes {
     font-size: 1.5em;
 }
 
-input#vezes:active {
+input#vezes:active { /* Efeito ao clicar no botão de mutiplicação */
     background-color: rgb(173, 157, 126);
 }
 
-input#dividir {
+input#dividir { /* Botão de divisão  */
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -107,11 +107,11 @@ input#dividir {
     font-size: 1.5em;
 }
 
-input#dividir:active {
+input#dividir:active { /* Efeito ao clicar no botão de divisão */
     background-color: rgb(173, 157, 126);
 }
 
-div#res {
+div#res { /* Div da resposta */
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
