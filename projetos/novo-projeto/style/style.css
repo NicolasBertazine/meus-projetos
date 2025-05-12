@@ -5,13 +5,13 @@
     padding: 0px;
 }
 
-body {
+body { /* Corpo do site */
     background-color: rgb(73, 23, 0);
     position: relative;
     height: 100vh;
 }
 
-div#container {
+div#container { /* Div principal */
     background-color: rgb(201, 201, 201);
     min-width: 300px;
     max-width: 900px;
@@ -25,28 +25,28 @@ div#container {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
 }
 
-div#container h1 {
+div#container h1 { /* Título do Div*/
     text-align: center;
     padding-top: 60px;
     color: rgb(73, 23, 0);
     font: bolder 4em Arial;
 }
 
-div#container p {
+div#container p { /* Parágrafos da Div */
     text-align: center;
     padding-top: 60px;
     color: rgb(73, 23, 0);
     font: normal 2em Arial;
 }
 
-div.saudacao {
+div.saudacao { /* Mensagem de saudação */
     text-align: center;
     margin-top: 60px;
     font: bold 2.5em Arial;
     color: rgb(155, 0, 0);
 }
 
-input {
+input#botao { /* Botão */
     display: block;
     margin: auto;
     margin-top: 60px;
@@ -61,7 +61,7 @@ input {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.37);
 }
 
-input:hover {
+input:hover { /* Efeito no botão ao passar o mouse */
     background-color: rgb(104, 0, 0);
 }
 
