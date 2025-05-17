@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio Steve Jobs</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media-queries.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header> <!-- Cabeçalho do site -->
         <h1>Criador da Apple <br> Steve Jobs</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="itens"> <!-- Aba de navegação -->
+            <a href="#">Home</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Contato</a>
+        </nav>
     </header>
-    <nav> <!-- Aba de navegação -->
-        <a href="#">Home</a>
-        <a href="#">Curiosidades</a>
-        <a href="#">Contato</a>
-    </nav>
+    
     <main> <!-- Conteúdo do site -->
         <div id="inicio"> <!-- Começo da biografia -->
             <div id="comeco"> 
@@ -265,5 +268,6 @@
         <p>&copy; Feito por <a href="https://github.com/NicolasBertazine" target="_blank">Nícolas Bertazine</a></p>
         
     </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
